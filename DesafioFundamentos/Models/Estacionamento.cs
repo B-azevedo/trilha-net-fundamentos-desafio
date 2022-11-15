@@ -20,7 +20,6 @@ namespace DesafioFundamentos.Models
         {
             
             // Implementado!!
-
             Console.WriteLine("Digite a placa do veículo para estacionar:");
 
             string placa = Console.ReadLine();
