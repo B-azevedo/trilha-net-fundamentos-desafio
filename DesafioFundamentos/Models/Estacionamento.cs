@@ -44,9 +44,14 @@ namespace DesafioFundamentos.Models
 
                 var consumo = Console.ReadLine();
                 int horas = Convert.ToInt32(consumo);
-
+                {
+                    if (horas <= 1)
+                    {
+                        horas = 0;
+                    }   
+                }
                 decimal valorTotal = precoInicial + (precoPorHora * horas);
-
+               
                 // Implementado!!
 
                 Console.ReadLine();

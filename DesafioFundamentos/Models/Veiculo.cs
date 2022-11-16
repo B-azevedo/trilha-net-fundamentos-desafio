@@ -7,7 +7,6 @@
         public Veiculo(string placa)
         {
             Placa = placa;
-
         }
         public override string ToString()
         {
